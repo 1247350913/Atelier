@@ -1,5 +1,5 @@
 
-# front-end-capstone
+# Atelier E-Commerce
 
 > This is a full stack e-commerce web application. The user interface provides relevant information about a product in the Atelier retail catalog. It features the product's details, ratings and reviews, and a related questions and answers section.
 
