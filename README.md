@@ -10,40 +10,42 @@ This is an E-Commerce web application. The user interface provides relevant info
   
 </div>
 
-## Product Detail Page
-Show the relevant information for a single product in the catalog.<br>
-Contains 4 modules:<br/>
-<li>Product Overview Module - Critical Priority
-<li>Ratings & Reviews Module - High Priority
-<li>Questions & Answers Module - High Priority
-<li>Related Items & Outfit Creation Module - High Priority
-  
-## Table of Contents
+<div align="center">
+  <h2>Application Features</h2>
+</div>
 
-1. [Requirements](#requirements)
-1. [Development](#development)
+### Product Detail Page
+This page shows the relevant information for a single product in the catalog.<br>
+It contains 4 modules:
+- Product Overview
+- Ratings & Reviews
+- Questions & Answers
+- Related Items & Outfit Creation
 
-## Requirements
+<div align="center">
+  <h2>Developer Resources</h2>
+</div>
 
-Node 6.13.0
+### Requirements
+- JavaScript -- 3.10
+- Node.js -- 6.13
+- PostgreSQL -- 14.0
 
-## Development
+For detailed requirements and dependencies, see package.json
 
-### Installing Dependencies
+### Development
 
+#### Installing Dependencies
 From within the root directory:
-
 ```sh
 npm install
 ```
 
-### Accessing Atelier API && Accessing Cloudinary image host
+#### Accessing Atelier API & Accessing Cloudinary image host
 Refactor config.example.js using instructions provided.
 
-### Running App In Development
-
+#### Running the app in a development environment
 From within the root directory:
-
 ```sh
 npm run build
 npm run client-dev
