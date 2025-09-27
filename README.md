@@ -22,6 +22,8 @@ It contains 4 modules:
 - Questions & Answers
 - Related Items & Outfit Creation
 
+This application is not currently live. See the video above for what this application was. The source code remains here.
+
 <div align="center">
   <h2>Developer Resources</h2>
 </div>
