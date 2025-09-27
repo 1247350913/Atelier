@@ -27,6 +27,9 @@ This application is not currently live. See the video above for what this applic
 <div align="center">
   <h2>Developer Resources</h2>
 </div>
+### This application can no longer be developed
+The database is in separate repositories currently, and the data files are no longer available. 
+A new database would need to be created, and the API rebuilt, in order for this frontend to function.
 
 ### Requirements
 - JavaScript -- 3.10
