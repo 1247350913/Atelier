@@ -1,0 +1,59 @@
+{
+  "name": "SDC-qna-service",
+  "version": "1.0.0",
+  "description": "database service for the question and answer requests for FEC application",
+  "main": "index.js",
+  "scripts": {
+    "server-dev": "npx nodemon --watch server server/index.js",
+    "start": "node server/index.js",
+    "test": "jest --watch",
+    "test-review": "jest test/review.test.js --watch",
+    "test-overview": "jest test/overview.test.js --watch",
+    "test-relatedItems": "jest test/relatedItems.test.js --watch",
+    "test-qa": "jest test/qa.test.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpp2205-fec-application/fec-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpp2205-fec-application/fec-application/issues"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "jsdom",
+    "moduleNameMapper": {
+      "^.+\\.(css|less|scss)$": "<rootDir>/test/mock/mock.js"
+    }
+  },
+  "homepage": "https://github.com/rpp2205-fec-application/fec-application#readme",
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "date-fns": "^2.29.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "jest-css-modules-transform": "^4.4.2",
+    "jest-environment-jsdom": "^29.1.2",
+    "k6": "^0.0.0",
+    "msw": "^0.47.4",
+    "nodemon": "^2.0.7",
+    "pg": "^8.8.0",
+    "pg-pool": "^3.5.2",
+    "pg-promise": "^10.15.0",
+    "save": "^2.9.0",
+    "supertest": "^6.3.2"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jest": "^29.1.2"
+  }
+}

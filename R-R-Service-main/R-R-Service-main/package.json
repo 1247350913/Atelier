@@ -1,27 +1,29 @@
 {
-  "name": "Atelier",
+  "name": "fec-application",
   "version": "1.0.0",
-  "description": "See repository",
+  "description": "Show the relevant information for a single product in the catalog.<br> Contains 4 modules:<br/> <li>Product Overview Module - Critical Priority <li>Ratings & Reviews Module - High Priority <li>Questions & Answers Module - High Priority <li>Related Items & Outfit Creation Module - High Priority**",
   "main": "index.js",
-  "homepage": "https://1247350913.github.io/Atelier",
   "scripts": {
-    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
-    "dev:server": "npx nodemon --watch server server/index.js",
-    "dev:client": "npx webpack --watch",
+    "server-dev": "npx nodemon --watch server server/index.js",
+    "client-dev": "npx webpack --watch",
     "build": "npx webpack",
     "start": "node server/index.js",
-    
     "test": "jest --watch",
     "test-review": "jest test/review.test.js --watch",
     "test-overview": "jest test/overview.test.js --watch",
     "test-relatedItems": "jest test/relatedItems.test.js --watch",
-    "test-qa": "jest test/qa.test.js --watch",
-    
-    "build:prod": "webpack --mode production"
+    "test-qa": "jest test/qa.test.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpp2205-fec-application/fec-application.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpp2205-fec-application/fec-application/issues"
+  },
   "jest": {
     "verbose": true,
     "testEnvironment": "jsdom",
@@ -29,43 +31,30 @@
       "^.+\\.(css|less|scss)$": "<rootDir>/test/mock/mock.js"
     }
   },
+  "homepage": "https://github.com/rpp2205-fec-application/fec-application#readme",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "axios": "^0.21.1",
     "bluebird": "^3.7.2",
-    "cloudinary": "^1.32.0",
-    "cloudinary-core": "^2.13.0",
     "date-fns": "^2.29.3",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "jest-css-modules-transform": "^4.4.2",
     "jest-environment-jsdom": "^29.1.2",
+    "k6": "^0.0.0",
     "msw": "^0.47.4",
+    "mysql2": "^2.3.3",
     "nodemon": "^2.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.4.0",
-    "sass": "^1.55.0",
-    "sass-loader": "^13.0.2",
-    "save": "^2.9.0",
-    "styled-components": "^5.3.6"
+    "react-icons": "^4.4.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.14.7",
-    "@babel/preset-react": "^7.14.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.5",
-    "babel-loader": "^8.2.5",
-    "css-loader": "^6.7.1",
     "global-jsdom": "^8.6.0",
-    "html-webpack-plugin": "^5.5.0",
     "jest": "^29.1.2",
-    "jsdom": "^20.0.1",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.41.0",
-    "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.11.0"
+    "jsdom": "^20.0.1"
   }
 }

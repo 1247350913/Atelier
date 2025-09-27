@@ -1,0 +1,28 @@
+{
+  "name": "fec-application",
+  "version": "1.0.0",
+  "description": "Show the relevant information for a single product in the catalog.<br> Contains 4 modules:<br/> <li>Product Overview Module - Critical Priority <li>Ratings & Reviews Module - High Priority <li>Questions & Answers Module - High Priority <li>Related Items & Outfit Creation Module - High Priority**",
+  "main": "productService.js",
+  "scripts": {
+    "server-dev": "npx nodemon --watch server server/index.js",
+    "start": "node server/productService.js",
+    "test": "npx jest --silent=false"
+  },
+  "author": "camjhirsh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "csv-parse": "^5.3.2",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "k6": "^0.0.0",
+    "mongoose": "^6.7.2",
+    "msw": "^0.47.4",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.2"
+  }
+}

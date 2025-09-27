@@ -1,0 +1,5 @@
+node_modules
+.env
+.ipynb_checkpoints
+assets
+sd-product-db.pem
