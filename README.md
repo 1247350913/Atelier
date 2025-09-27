@@ -22,9 +22,14 @@ It contains 4 modules:
 - Questions & Answers
 - Related Items & Outfit Creation
 
+This application is not currently live. See the video above for what this application was. The source code remains here.
+
 <div align="center">
   <h2>Developer Resources</h2>
 </div>
+### This application can no longer be developed
+The database is in separate repositories currently, and the data files are no longer available. 
+A new database would need to be created, and the API rebuilt, in order for this frontend to function.
 
 ### Requirements
 - JavaScript -- 3.10
@@ -48,6 +53,5 @@ Refactor config.example.js using instructions provided.
 From within the root directory:
 ```sh
 npm run build
-npm run client-dev
-npm run server-dev
+npm run dev
 ```
