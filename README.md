@@ -2,7 +2,7 @@
   <h1>Atelier E-Commerce</h1>
 </div>
 
-This is an E-Commerce web application. The user interface provides relevant information about a product in the Atelier retail catalog. It features the product's details, ratings and reviews, and a related questions and answers section. Check out the demo below!
+This is an E-Commerce responsive web application. The user interface provides relevant information about a product in the Atelier retail catalog. It features the product's details, ratings and reviews, and a related questions and answers section. Check out the demo below!
 
 <div align="center">
   
