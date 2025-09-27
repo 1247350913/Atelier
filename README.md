@@ -48,6 +48,5 @@ Refactor config.example.js using instructions provided.
 From within the root directory:
 ```sh
 npm run build
-npm run client-dev
-npm run server-dev
+npm run dev
 ```
