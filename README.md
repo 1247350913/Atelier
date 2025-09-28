@@ -47,7 +47,7 @@ npm install
 ```
 
 #### Accessing Atelier API & Cloudinary image host
-Refactor config.example.js using instructions provided.
+Refactor .env.example using the instructions provided.
 
 #### Running the app in a development environment
 From within the root directory:
